@@ -59,12 +59,12 @@ insert into player (playerID, firstName, lastName, phone) values
 (10003, 'Julia', 'Gillard', 5553456);
 
 insert into teamEntry (ageGroup, teamNumber, clubName, seasonYear, seasonName) values
-('Seniors', 1, 'Mt Martha Baseball Club', 2018, 'Winter'),
-('U14', 2, 'Mt Martha Baseball Club', 2018, 'Summer'),
+('O18', 1, 'Mt Martha Baseball Club', 2018, 'Winter'),
 ('U14', 2, 'Mt Martha Baseball Club', 2018, 'Summer');
+
 
 insert into playerRegistration (dateRegistered, playerID, clubName, seasonYear, seasonName,
             ageGroup, teamNumber) values
-(13-04-2018, 10001, 'Mt Martha Baseball Club', 2018, 'Winter', 'Seniors', 1),
-(22-12-2017, 10002, 'Mt Martha Baseball Club', 2018, 'Summer', 'U14', 2),
-(20-12-2018, 10003, 'Mt Martha Baseball Club', 2018, 'Summer', 'U14', 2);
+('2018-04-13', 10001, 'Mt Martha Baseball Club', 2018, 'Winter', 'O18', 1),
+('2017-12-22', 10002, 'Mt Martha Baseball Club', 2018, 'Summer', 'U14', 2),
+('2018-12-20', 10003, 'Mt Martha Baseball Club', 2018, 'Summer', 'U14', 2);
